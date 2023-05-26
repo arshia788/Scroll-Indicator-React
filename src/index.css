@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'IRANSansX-Light';
+  src: url(./fonts/IRANSansX-Light.woff) format('woff');
+}
+
+*{
+  padding: 0;
+  font-family: 'IRANSansX-Light';
+  margin: 0;
+  list-style: none;
+}
+
+
+nav{
+  background: #333;
+  padding: 10px;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+}
+
+nav ul li{
+  color: #fff;
+  padding: 10px;
+}
+
+.content{
+  padding: 20px 50px;
+}
+
+.content p{
+  margin: 20px 0;
+}
+
+.wrapper{
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.progressbar{
+  z-index: 1;
+  height: 12px;
+  width: 100%;
+  background: #afafaf;
+}
+
+.activeprogressbar{
+  background: crimson;
+  width: 0;
+  height: 100%;
+}
+
